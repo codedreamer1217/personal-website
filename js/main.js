@@ -70,6 +70,11 @@
 	});
 	/*--/ End Scrolling nav /--*/
 
+	$('form.contactForm').submit(function(e) {
+		e.preventDefault();
+		window.location.assign('mailto:codedreamer941217@gmail.com?Subject=' + $('#mail_subject').val() + '&body=' + $('#mail_message').val());
+	})
+
 	/*--/ Navbar Menu Reduce /--*/
 	$(window).trigger('scroll');
 	$(window).on('scroll', function () {
