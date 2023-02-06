@@ -72,7 +72,7 @@
 
 	$('form.contactForm').submit(function(e) {
 		e.preventDefault();
-		window.location.assign('mailto:codedreamer941217@gmail.com?Subject=' + $('#mail_subject').val() + '&body=' + $('#mail_message').val());
+		window.location.assign('mailto:cookies941217@gmail.com?Subject=' + $('#mail_subject').val() + '&body=' + $('#mail_message').val());
 	})
 
 	/*--/ Navbar Menu Reduce /--*/
